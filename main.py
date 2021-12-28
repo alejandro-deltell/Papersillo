@@ -9,7 +9,7 @@ chromeOptions = webdriver.ChromeOptions()
 
 win_chromedriver_path = "chromedriver.exe"
 driver = webdriver.Chrome(executable_path=win_chromedriver_path, options=chromeOptions)
-# driver.set_window_position(-10000, 0)
+driver.set_window_position(-10000, 0)
 
 
 def wait():
